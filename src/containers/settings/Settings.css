@@ -1,0 +1,190 @@
+.settings .btn-primary.file-button {
+  text-align: center;
+  min-width: 118px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-title {
+  font-size: 26px;
+  font-family: "Gilroy-medium";
+  font-weight: 500;
+  color: #0f1b25;
+}
+
+.import-modal button.ant-btn-primary,
+.confirm-modal button.ant-btn-primary,
+.add-currency-modal button.ant-btn-primary {
+  font-family: "Gilroy-medium";
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 14px;
+  min-height: 42px;
+  border-radius: 32px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+  min-width: 118px;
+}
+
+.import-modal button.ant-btn-default,
+.confirm-modal button.ant-btn-default,
+.add-currency-modal button.ant-btn-default{
+  font-family: "Gilroy-medium";
+  font-weight: 500;
+  text-align: center;
+  font-size: 14px;
+  color: #6f767d;
+  border: none;
+  box-shadow: none;
+  min-height: 42px;
+  min-width: 118px;
+}
+
+.import-modal button.ant-modal-close:hover,
+.confirm-modal button.ant-modal-close:hover,
+.add-currency-modal button.ant-modal-close:hover {
+  background: none;
+}
+
+.upload-card {
+  background: #eef2f5;
+  border-radius: 5px;
+  max-height: 42px;
+}
+
+.currency-tab > div, .budget-settings {
+  background: #fff;
+  padding: 24px;
+  height: 100%;
+  width: 100%;
+  border-radius: 16px;
+}
+
+.currency-tab > div label {
+  min-width: fit-content;
+}
+
+.currency-tab input {
+  width: auto;
+  min-width: 350px;
+}
+
+.manager-selectbox,
+.admin-selectbox {
+  box-shadow: none;
+  min-width: 350px;
+  max-width: 450px;
+}
+
+.managers,
+.hr-admin {
+  margin: 16px 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.managers .btn-primary,
+.hr-admin .btn-primary {
+  max-width: 200px;
+  margin-left: 16px;
+}
+
+.confirm-modal p {
+  margin: 0;
+  text-align: center;
+  padding: 24px 0;
+  font-family: "Gilroy-Medium";
+  font-size: 16px;
+}
+
+.import-export .btn-primary {
+  min-width: 118px;
+}
+
+.add-employee .btn-primary{
+  min-width: 180px;
+}
+
+.permissions .role .ant-collapse-header-text {
+  font-family: "Gilroy-bold";
+}
+
+.permissions .role {
+  margin-bottom: 16px;
+}
+.default-currency .ant-select {
+  min-width: 350px; 
+}
+
+.default-currency .ant-select-selector {
+  border: 1px solid #d9d9d9; 
+  border-radius: 5px; 
+  height: auto;
+}
+
+.default-currency .ant-select-selector .ant-select-selection-item {
+  background-color: rgba(0, 0, 0, 0.02);
+  color: #333; 
+}
+
+.default-currency .ant-select-selector .ant-select-selection-search-input {
+  height: auto; 
+  border: none;
+}
+
+.default-currency .ant-select-selection-placeholder {
+  color: #999; 
+}
+
+.default-currency .ant-select-arrow {
+  color: #333; 
+}
+
+.budget-settings .budget-input input{
+  width: auto;
+  min-width: 350px;
+}
+/* AddCurrencyModal.css */
+.add-currency-modal {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.add-currency-modal label {
+  margin-bottom: 8px;
+  display: block;
+  /* Remove blue dotted border */
+  outline: none;
+}
+.add-currency-modal label:focus {
+  outline: none;
+}
+
+
+.add-currency-modal input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.ant-form-item{
+  margin: 0;
+}
+
+.error-container {
+  height: 210px;
+  overflow-y: scroll;
+}
+
+.role-dropdown {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}

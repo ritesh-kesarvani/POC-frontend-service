@@ -1,0 +1,53 @@
+.table-top {
+    margin: 24px 0;
+    align-items: center;
+  }
+  
+  .table-top h1 {
+    font-size: 26px;
+    font-weight: 300;
+    color: #6f767d;
+  }
+  
+  .table-top h1 span {
+    font-weight: 500;
+    color: #0f1b25;
+    font-family: 'Gilroy-Medium';
+  }
+  
+  .search {
+    border: 1px solid #e7e8e9;
+    border-radius: 24px;
+    overflow: hidden;
+    width: 276px;
+    background: transparent;
+  }
+  
+  .search input {
+    color: #6f767d;
+    font-size: 14px;
+    background-color: transparent;
+  }
+  
+  .budget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #6f767d;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .budget input {
+    width: 50px;
+    height: 33px;
+    border: 1px solid #6f767d;
+    border-radius: 8px;
+    color: #0f1b25;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px;
+    outline: transparent;
+  }
+  

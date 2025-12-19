@@ -1,0 +1,74 @@
+.auth-form a,
+.signup-success div span,
+.auth-info a {
+  font-size: 14px;
+  font-family: "Gilroy-Medium";
+  font-weight: 500;
+  line-height: 18px;
+  color: #263d8a;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.auth-form a:hover,
+.signup-success div span:hover,
+.auth-info a:hover {
+  color: #1f2c56;
+}
+
+.auth-form input[name="password"] {
+  padding-right: 32px !important;
+}
+
+.pass-eye {
+  position: relative;
+  margin-top: -35px;
+  right: 10px;
+  cursor: pointer;
+  float: right;
+}
+
+/* responsive auth layout */
+/* sm */
+@media (max-width: 767px) {
+  .image-side {
+    width: 0 !important;
+  }
+
+  .content-side {
+    width: 100% !important;
+  }
+}
+
+/* xl */
+@media (min-width: 768px) and (max-width: 959px) {
+  .image-side {
+    width: 50% !important;
+  }
+
+  .content-side {
+    width: 50% !important;
+  }
+}
+
+/* xxl */
+@media (min-width: 960px) and (max-width: 1319px) {
+  .image-side {
+    width: 60% !important;
+  }
+
+  .content-side {
+    width: 40% !important;
+  }
+}
+
+/* >xxl */
+@media (min-width: 1320px) {
+  .image-side {
+    width: 70% !important;
+  }
+
+  .content-side {
+    width: 30% !important;
+  }
+}

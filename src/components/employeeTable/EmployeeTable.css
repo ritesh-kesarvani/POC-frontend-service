@@ -1,0 +1,435 @@
+.data-table {
+  border-radius: 24px;
+  overflow-x: auto;
+  background-color: #fff;
+}
+
+table {
+  margin: 0 !important;
+}
+
+tr {
+  border-color: #f3f4f4;
+}
+
+.data-table > table th,
+.data-table > table td {
+  padding: 16px !important;
+  vertical-align: middle;
+}
+
+.data-table thead th {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  color: #6f767d;
+  background-color: #fff;
+  vertical-align: middle;
+  /* cursor: pointer; */
+}
+
+.data-table tbody td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #0f1b25;
+  background-color: #fff;
+}
+
+.data-table tbody td > div:not(.ant-picker-cell-inner) {
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.data-table tbody td > div.custom-dropdown {
+  padding: 0;
+}
+
+.data-table tbody td > div:focus-visible {
+  font-family: "Gilroy-Medium";
+  outline: 1px solid #718ceb;
+  color: #718ceb;
+}
+
+.pagination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background-color: #fff;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: none;
+}
+
+.pagination button.pagenum {
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #0f1b25;
+  background-color: transparent;
+}
+
+.pagination button.pagenum.active {
+  color: #718ceb;
+  background-color: #f1f4fd;
+}
+
+.pagination button.pagenum:hover {
+  background-color: #f1f4fd;
+}
+
+.pagination .previous-page,
+.pagination .next-page {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #718ceb;
+  font-family: "Gilroy-medium";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pagination .previous-page:disabled,
+.pagination .next-page:disabled {
+  color: #0f1b25;
+}
+
+.pagination .previous-page:disabled svg path,
+.pagination .next-page:disabled svg path {
+  stroke: #0f1b25;
+}
+
+.pagination .pagedots {
+  color: #0f1b25;
+}
+
+.selected-row th,
+.selected-row td {
+  background-color: #f8f9fe !important;
+}
+
+.data-table tr td span.per-increased {
+  color: #718ceb;
+}
+
+.data-table .ant-select-selector {
+  border: none !important;
+  box-shadow: none !important;
+}
+.custom-datepicker {
+  border-color: transparent;
+  width: 105px;
+  background: transparent;
+}
+.custom-dropdown {
+  width: 150px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.data-table .custom-datepicker.ant-picker:hover:not(.ant-picker-focused) {
+  border-color: transparent;
+}
+
+.data-table .custom-datepicker .ant-picker-focused.ant-picker {
+  box-shadow: none;
+  border: 1px solid #718ceb;
+}
+
+.data-table .custom-dropdown:where(.ant-select-focused, .ant-select-open) {
+  border: 1px solid #718ceb;
+}
+
+.data-table .custom-dropdown.location .ant-select-selection-item {
+  color: #718ceb;
+  padding: 0;
+  border-radius: 29px;
+  background-color: #f1f4fd;
+  text-align: center;
+}
+
+.data-table
+  .custom-dropdown.location:where(.ant-select-focused, .ant-select-open) {
+  border: 1px solid transparent;
+}
+
+.data-table
+  .custom-dropdown.location:where(.ant-select-focused, .ant-select-open)
+  .ant-select-selection-item {
+  border: 1px solid #718ceb;
+}
+
+.data-table .stickey-col {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: sticky;
+  left: 0;
+  background-color: #fff;
+  white-space: nowrap;
+  z-index: 99;
+}
+
+.data-table .selected-row .stickey-col {
+  background-color: #f8f9fe;
+}
+
+.data-table .stickey-col:not(.checkbox) {
+  left: 48px;
+}
+
+.data-table
+  .custom-dropdown.ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background: transparent;
+}
+
+.ant-picker-today-btn {
+  color: #718ceb !important;
+}
+
+.date-string {
+  width: 105px;
+  border: 1px solid transparent;
+  min-width: max-content;
+}
+
+/* custom-scroll-bar start */
+.custom-scroll-bar {
+  width: 100%;
+  height: 18px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  position: sticky;
+  bottom: 0;
+  z-index: 99;
+}
+
+.custom-scroll-bar .custom-scroll-bar-inner {
+  height: 0;
+  overflow: hidden;
+}
+
+.col-min-width {
+  min-width: 150px;
+}
+
+.overflow-x {
+  overflow-x: hidden;
+}
+
+.filter-list {
+  width: 241px !important;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(58, 65, 92, 0.10);
+  /* display: flex; */
+  padding: 12px 0 12px 0;
+  align-items: center;
+  gap: 5px;
+}
+
+.dropdown-scroll {
+  max-height: 255px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #C1C1C1,
+}
+
+.dropdown-scroll::-webkit-scrollbar {
+  width: 4px;
+  min-height: 8px;
+  background-color: transparent;
+}
+
+.dropdown-scroll::-webkit-scrollbar-thumb {
+  background-color: #C1C1C1;
+  border-radius: 5px;
+}
+
+.dropdown-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #C1C1C1;
+}
+
+.dropdown-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+
+.filter-list-opt {
+  display: flex;
+  padding: 11px 24px;
+  align-items: center;
+  align-self: stretch;
+  background: #FFF;
+  border: transparent !important;
+  cursor: pointer;
+}
+
+.filter-selected-col {
+  display: flex;
+  padding: 11px 24px;
+  align-items: center;
+  align-self: stretch;
+  background: #718CEB !important;
+  border: transparent !important;
+}
+
+.filter-selected-col .list-text {
+  color: #fff !important;
+}
+
+.apply-filter-box {
+  width: 241px !important;
+  border-radius: 16px;
+  background: #FFF;
+  box-shadow: 0px 4px 30px 0px rgba(58, 65, 92, 0.10);
+  padding: 20px 18px;
+}
+
+.filter-list-opt:hover, .filter-list-opt:focus {
+  background: #F8F9FE;
+}
+
+.list-text {
+  color: #0F1B25;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.right-0 {
+  right: 60px;
+}
+
+.filter-checkbox {
+  width: 1rem;
+  height: 1rem;
+}
+
+.filter-input, .filter-input:focus {
+  border-radius: 8px;
+  border: 1px solid #718CEB !important;
+  background:#FFF;
+  padding: 8px;
+  height: 40px;
+  padding: 12px;
+  width: 100%;
+  outline: #718CEB !important;
+}
+
+.filter-select .ant-select-single {
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  border-radius: 8px !important;
+}
+
+.filter-select .filter-dropdown .ant-select-selection-item {
+  color: #718ceb;
+  padding: 0;
+  width: 100% !important;
+  border-radius: 8px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter-select .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: 1px solid #718ceb !important;
+}
+
+.filter-select .filter-dropdown:where(.ant-select-focused, .ant-select-open) {
+  /* border: 1px solid #718ceb !important; */
+  width: 100%;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.filter-select .filter-dropdown .ant-select-selection-item {
+  color: #718ceb;
+  padding: 0;
+  text-align: center;
+  width: 100% !important;
+  border-radius: 8px;
+  height: 40px;
+}
+
+.filter-select .filter-dropdown:where(.ant-select-focused, .ant-select-open) {
+  border: 1px solid transparent;
+}
+
+.filter-select .filter-dropdown.ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background: transparent;
+}
+
+.filter-date .ant-picker {
+  /* color: #718ceb; */
+  padding: 0;
+  width: 100% !important;
+  border-radius: 8px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 10px;
+  border: 1px solid #718ceb !important;
+}
+
+.filter-tag {
+  border-radius: 32px;
+  border: 1px solid var(--colors-blue-100, #718CEB);
+  padding: 8px 16px;
+}
+
+.tag-name {
+  color: #6F767D;
+}
+
+.tag-value {
+  color: #0F1B25;
+}
+
+.filter-err {
+  color: #DC143C;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.remove-tag {
+  cursor: pointer;
+}
+
+.plus-with-circle {
+  width: 38px;
+  height: 38px;
+}
+
+@media screen and (max-width: 850px) and (min-width: 50px) {
+  .filter-list {
+    width: 100%!important;
+  }
+}
+table {
+  width: 100%; /* Optional: ensures the table takes full width of container */
+  border-collapse: collapse; /* Optional: for cleaner borders */
+}
+
+/* Centers text in all table headers (th) and data cells (td) */
+td, th {
+  text-align: center;
+  /* Optional: Vertically center the content as well */
+  vertical-align: middle;
+}

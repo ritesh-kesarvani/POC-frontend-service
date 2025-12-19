@@ -1,0 +1,30 @@
+    .auth-form div.sign-up, .auth-form div.auth-info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #263d8a;
+  }
+
+  .domain-start{
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+
+  .domain-end{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+
+  .domain div span, .domain input{
+    min-height: 42px;
+  }
+  
+.sign-up .pass-eye {
+  margin-top: -35px;
+}
+
+.info-icon {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}

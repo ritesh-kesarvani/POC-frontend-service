@@ -1,0 +1,171 @@
+.btn-primary {
+  padding: 5px 16px !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  border: 1px solid #718ceb !important;
+  min-height: 42px;
+  border-radius: 32px !important;
+  color: #fff !important;
+  background-color: #718ceb !important;
+  transition: all 0.3s ease-in-out;
+  min-width: 118px;
+}
+
+.btn-primary:hover {
+  background-color: #4e70ed !important;
+}
+
+.btn-secondary {
+  padding: 5px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none !important;
+  min-height: 42px;
+  border-radius: 32px !important;
+  color: #6f767d !important;
+  background-color: transparent !important;
+  transition: all 0.3s ease-in-out;
+  min-width: 118px;
+}
+
+.btn-secondary:hover,
+.btn-default:hover {
+  color: #4e70ed !important;
+}
+
+.btn-default {
+  background: #0f1b25;
+  border: transparent;
+  color: #fff;
+  position: absolute;
+  right: -25px;
+  top: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 3px;
+  transition: color 0.2s ease;
+}
+
+.required {
+  color: red;
+}
+
+.form-control {
+  box-shadow: none !important;
+}
+
+.form-control:focus {
+  border-color: #dee2e6 !important;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.w-70 {
+  width: 70% !important;
+}
+
+.w-30 {
+  width: 30% !important;
+}
+
+.px-24 {
+  padding: 0 24px;
+}
+
+.main {
+  background-color: #f8f8f8;
+}
+
+.layout-container {
+  width: calc(100% - 136px);
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.required-error {
+  font-size: 14px;
+  font-family: "Gilroy-Medium";
+  color: red;
+  margin-left: 5px;
+}
+
+.page-head {
+  margin: 24px 0;
+  font-size: 26px;
+  font-family: "Gilroy-medium";
+  font-weight: 500;
+  color: #0f1b25;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-checkbox-wrapper:not(
+    .ant-checkbox-wrapper-disabled
+  ):hover
+  .ant-checkbox-inner,
+:where(.css-dev-only-do-not-override-3mqfnx).ant-checkbox:not(
+    .ant-checkbox-disabled
+  ):hover
+  .ant-checkbox-inner {
+  border-color: #718ceb;
+}
+
+:where(.css-dev-only-do-not-override-3mqfnx).ant-checkbox-wrapper:not(
+    .ant-checkbox-wrapper-disabled
+  ):hover
+  .ant-checkbox-checked:not(.ant-checkbox-disabled)
+  .ant-checkbox-inner,
+.ant-checkbox-indeterminate .ant-checkbox-inner:after,
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #718ceb;
+  border-color: #718ceb;
+}
+
+.text-color {
+  color: #718ceb !important;
+}
+
+.sidebar-container {
+  transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar-container {
+    position: absolute;
+    z-index: 999;
+    transition: all 0.2s ease;
+    left: -136px;
+    z-index: 9999;
+  }
+
+  .layout-container {
+    width: 100%;
+  }
+
+  .sidebar-open .sidebar-container {
+    left: 0;
+  }
+
+  .sidebar-container .btn-default{
+    display: none;
+  }
+
+  .sidebar-open .sidebar-container .btn-default{
+    display: block;
+  }
+
+}
+
+
+table {
+  width: 100%; /* Optional: ensures the table takes full width of container */
+  border-collapse: collapse; /* Optional: for cleaner borders */
+}
+
+/* Centers text in all table headers (th) and data cells (td) */
+td, th {
+  text-align: center;
+  /* Optional: Vertically center the content as well */
+  vertical-align: middle;
+}

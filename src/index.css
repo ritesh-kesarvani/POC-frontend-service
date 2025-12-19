@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("../public/assets/fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Medium";
+  src: url("../public/assets/fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("../public/assets/fonts/Gilroy-Bold.ttf");
+}
+
+* {
+  font-family: "Gilroy-Regular";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Gilroy-Regular", "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  overflow-x: hidden;
+}
+
+.gilroy {
+  font-family: "Gilroy-Regular";
+}
+
+.gilroy-medium {
+  font-family: "Gilroy-Medium";
+}
+
+.gilroy-bold {
+  font-family: "Gilroy-Bold";
+}
+
+.ant-notification-notice-content div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ant-notification-notice-content div .ant-notification-notice-message {
+  margin-bottom: 0 !important;
+}
+
+ /* .ant-tabs-tab-active */
+.ant-tabs-tab .ant-tabs-tab-btn{
+  font-family: "Gilroy-medium" !important;
+  font-size: 16px !important;
+  font-weight: 500;
+  color: #0F1B25;
+}
+
+.ant-tabs .ant-tabs-tab{
+  padding: 12px;
+}
+
+.ant-tabs .ant-tabs-tab+.ant-tabs-tab{
+ margin: 0 0 0 12px !important;
+}
+
+.v-hidden{
+  visibility: hidden !important;
+}
+
+.filter-tag {
+  border-radius: 32px;
+  border: 1px solid #718CEB;
+  padding: 8px 16px;
+}
+
+.tag-name {
+  color: #6F767D; 
+}
+
+.tag-value {
+  color: #0F1B25;
+}
+
+.sort-cursor {
+  cursor: pointer;
+}

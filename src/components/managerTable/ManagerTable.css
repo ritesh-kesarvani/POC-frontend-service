@@ -1,0 +1,117 @@
+.manager-table {
+  border-radius: 24px;
+  overflow-x: auto;
+  background-color: #fff;
+}
+
+.manager-table table {
+  margin: 0 !important;
+}
+
+.manager-table tr {
+  border-color: #f3f4f4;
+}
+
+.manager-table th,
+.manager-table td {
+  padding: 16px !important;
+}
+
+.manager-table thead th {
+  font-family: "Gilroy-Medium";
+  font-size: 12px;
+  font-weight: 500;
+  color: #6f767d;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+.manager-table tbody td {
+  font-weight: 400;
+  font-size: 14px;
+  color: #0f1b25;
+  background-color: #fff;
+}
+
+.pagination {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background-color: #fff;
+}
+
+.pagination button {
+  background-color: transparent;
+  border: none;
+}
+
+.pagination button.pagenum {
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #0f1b25;
+  background-color: transparent;
+}
+
+.pagination button.pagenum.active {
+  color: #718ceb;
+  background-color: #f1f4fd;
+}
+
+.pagination button.pagenum:hover {
+  background-color: #f1f4fd;
+}
+
+.pagination .previous-page,
+.pagination .next-page {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #718ceb;
+  font-family: "Gilroy-medium";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.pagination .previous-page:disabled,
+.pagination .next-page:disabled {
+  color: #0f1b25;
+}
+
+.pagination .previous-page:disabled svg path,
+.pagination .next-page:disabled svg path {
+  stroke: #0f1b25;
+}
+
+.pagination .pagedots {
+  color: #0f1b25;
+}
+
+.manager-table .selected-row th,
+.manager-table .selected-row td {
+  background-color: #f8f9fe;
+}
+
+.manager-table tr td span.per-increased {
+  color: #718ceb;
+}
+
+.manager-table tr td span.location {
+  color: #718ceb;
+  padding: 2px 8px;
+  border-radius: 29px;
+  background-color: #f1f4fd;
+}
+
+.manager-table .remove-text{
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.manager-table .remove-text:hover{
+  color: #718ceb;
+}

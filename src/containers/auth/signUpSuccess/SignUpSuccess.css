@@ -1,0 +1,15 @@
+.success-img{
+    width: 140px;
+    height: 126px;
+}
+
+.signup-success{
+    flex-direction: column;
+}
+
+.signup-success div.auth-info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #263d8a;
+  }
